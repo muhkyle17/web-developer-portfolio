@@ -1,0 +1,102 @@
+/* For headings: https://fonts.google.com/specimen/Prata */
+/* For body: https://fonts.google.com/specimen/Inter */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Prata&display=swap');
+
+html {
+  font-size: 62.5%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-height: 100vh;
+  margin: 0;
+}
+
+/* Typography  */
+
+h1,
+h2,
+h3 {
+  font-family: 'Prata', sans-serif;
+  color: #fff;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+p {
+  font-family: 'Inter', sans-serif;
+  color: #949393;
+}
+
+/* ------ Nav ------ */
+
+.nav {
+  width: 90vw;
+  margin-top: 2rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__pages {
+  width: 30rem;
+  font-size: 1.6rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__btn {
+  font-family: 'Prata', sans-serif;
+  background-color: #ecdd52;
+  font-size: 1.5rem;
+  padding: 1.2rem 2rem;
+  border-radius: 0.3rem;
+}
+
+/* ------ Main ------ */
+
+/* About */
+
+.about {
+  width: 90vw;
+  margin-top: 6rem;
+}
+
+.about--font-big {
+  font-size: 5rem;
+  width: 70rem;
+}
+
+.about--font-small {
+  font-size: 1.6rem;
+  width: 60rem;
+  margin-top: -1.2rem;
+}
+
+/* Logos */
+
+.logos {
+  width: 90vw;
+  margin-top: 5rem;
+
+  display: flex;
+  justify-content: space-between;
+}
