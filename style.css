@@ -17,8 +17,11 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  max-height: 100vh;
   margin: 0;
+}
+
+.container {
+  width: 90vw;
 }
 
 /* Typography  */
@@ -46,8 +49,7 @@ p {
 /* ------ Nav ------ */
 
 .nav {
-  width: 90vw;
-  margin-top: 2rem;
+  height: 10rem;
 
   display: flex;
   justify-content: space-between;
@@ -63,6 +65,11 @@ p {
   align-items: center;
 }
 
+.nav__pages a {
+  text-decoration: none;
+  color: #949393;
+}
+
 .nav__btn {
   font-family: 'Prata', sans-serif;
   background-color: #ecdd52;
@@ -76,8 +83,7 @@ p {
 /* About */
 
 .about {
-  width: 90vw;
-  margin-top: 6rem;
+  margin-top: 5rem;
 }
 
 .about--font-big {
@@ -88,15 +94,54 @@ p {
 .about--font-small {
   font-size: 1.6rem;
   width: 60rem;
-  margin-top: -1.2rem;
+  margin-top: -3rem;
 }
 
 /* Logos */
 
 .logos {
-  width: 90vw;
   margin-top: 5rem;
 
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.logos__tinder {
+  display: flex;
+}
+
+.logos__tinder--emblem {
+  width: 4rem;
+  height: auto;
+  margin-right: -3.5rem;
+}
+
+.examples {
+  margin-top: 5rem;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.examples__el {
+  width: 47%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.examples__el .examples__el--link {
+  font-size: 4rem;
+  margin-top: 1rem;
+  text-decoration: none;
+  color: #fff;
+}
+
+.examples__el p {
+  font-size: 1.6rem;
+}
+
+.examples__el span {
+  font-style: italic;
 }

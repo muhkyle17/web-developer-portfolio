@@ -9,14 +9,14 @@
   </head>
   <body>
     <nav>
-      <div class="nav">
+      <div class="container nav">
         <h2>Jonathan Specter</h2>
 
         <div class="nav__pages">
-          <p>Articles</p>
-          <p>Chats</p>
-          <p>Awards</p>
-          <p>About</p>
+          <a href="#">Articles</a>
+          <a href="#">Chats</a>
+          <a href="#">Awards</a>
+          <a href="#">About</a>
         </div>
 
         <button class="nav__btn">Get in touch</button>
@@ -24,20 +24,44 @@
     </nav>
 
     <main>
-
-      <div class="about">
+      <section class="container about">
         <h1 class="about--font-big">Helping companies build better, scalable software.</h1>
         <p class="about--font-small">Award-winning web developer and author, with over 15+ years of working experience with Fortune 500 companies like Apple, Google, Facebook, and more.</p>
-      </div>
+      </section>
 
-      <div class="logos">
-        <img src="assets/Logos/Walmart.svg" alt="">
-        <img src="assets/Logos/JP Morgan.svg" alt="">
-        <img src="assets/Logos/Visa.svg" alt="">
-        <img src="assets/Logos/Tinder.svg" alt="">
-        <img src="assets/Logos/Samsung.svg" alt="">
-        <img src="assets/Logos/Verizon.svg" alt="">
-      </div>
+      <section class="container logos">
+        <img src="assets/Logos/Walmart.svg" alt="Walmart Logo">
+        <img src="assets/Logos/JP Morgan.svg" alt="JP Morgan Logo">
+        <img src="assets/Logos/Visa.svg" alt="Visa Logo">
+        <div class="logos__tinder">
+          <img src="assets/Logos/Tinder-Emblem.png" alt="Tinder Logo" class="logos__tinder--emblem">
+          <img src="assets/Logos/Tinder.svg" alt="Tinder Logo">
+        </div>
+        <img src="assets/Logos/Samsung.svg" alt="Samsung Logo">
+        <img src="assets/Logos/Verizon.svg" alt="Verizon Logo">
+      </section>
+
+      <section class="container examples">        
+        <div class="examples__el">
+          <img src="assets/Spense.png" alt="Spense Website">
+          <a href="#" class="examples__el--link">Spense.com</a>
+          <p>Rethinking the way writers get paid, an open-source platform designed to help writers focus more on writing, and less on <span>when</span> and <span>how</span> they'll get paid. Project in colloration with Codewell.cc</p>
+        </div>
+
+        <div class="examples__el">
+          <img src="assets/YelpCamp.png" alt="Spense Website">
+          <a href="#" class="examples__el--link">YelpCamp.com</a>
+          <p>Allowing backpack travelers to perfectly plan their trip through an open-source platform similar to TripAdvisor. with over 1m MAU, YelpCamp has been the crowd's favorite in 2021.</p>
+        </div>
+      </section>
+
+      <section class="container">
+
+
+
+      </section>
+
+      
 
     </main>
 
