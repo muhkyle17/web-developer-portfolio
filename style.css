@@ -193,7 +193,7 @@ p {
   padding: 0;
 }
 
-/* Collab section  */
+/* Collab */
 
 .collab {
   width: 40%;
@@ -207,4 +207,36 @@ p {
 
 .collab p {
   font-size: 1.6rem;
+}
+
+/* Footer  */
+
+.footer {
+  width: 100%;
+  background-color: #393c42;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__container {
+  width: 80vw;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__icons {
+  width: 8rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__icons img {
+  width: auto;
+  height: 20px;
 }
