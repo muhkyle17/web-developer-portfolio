@@ -70,13 +70,14 @@ p {
   color: #949393;
 }
 
-.nav__btn {
+.git__btn {
   font-family: 'Prata', sans-serif;
   background-color: #ecdd52;
   font-size: 1.5rem;
   padding: 1.2rem 2rem;
   border-radius: 0.3rem;
   border: none;
+  width: fit-content;
 }
 
 /* ------ Main ------ */
@@ -190,4 +191,15 @@ p {
 .cofounder__text p {
   font-size: 1.5rem;
   padding: 0;
+}
+
+/* Collab section  */
+
+.collab {
+  width: 47%;
+  padding: 5rem 0;
+}
+
+.collab p {
+  font-size: 1.6rem;
 }
