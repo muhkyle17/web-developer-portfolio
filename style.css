@@ -196,8 +196,13 @@ p {
 /* Collab section  */
 
 .collab {
-  width: 47%;
+  width: 40%;
   padding: 5rem 0;
+}
+
+.collab h3 {
+  font-size: 3rem;
+  margin: 0;
 }
 
 .collab p {
