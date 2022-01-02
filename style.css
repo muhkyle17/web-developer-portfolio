@@ -178,12 +178,27 @@ p {
 
 .logos__tinder {
   display: flex;
+  align-items: center;
 }
 
 .logos__tinder--emblem {
   width: 4rem;
-  height: auto;
+  height: 2.4rem;
   margin-right: -3.5rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .logos {
+    width: 50rem;
+    height: 8rem;
+    row-gap: 2rem;
+    column-gap: 4rem;
+    justify-content: space-between;
+  }
+
+  .logos__samsung {
+    flex-shrink: 1;
+  }
 }
 
 /* Examples  */
