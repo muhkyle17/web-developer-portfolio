@@ -232,6 +232,20 @@ p {
   font-style: italic;
 }
 
+@media only screen and (max-width: 768px) {
+  .examples {
+    width: 80vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .examples__el {
+    width: 100%;
+    margin: 2rem 0;
+  }
+}
+
 /* Co-founder */
 
 .cofounder {
