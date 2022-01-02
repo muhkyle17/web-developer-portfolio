@@ -289,6 +289,17 @@ p {
   padding: 0;
 }
 
+@media only screen and (max-width: 768px) {
+  .cofounder__container {
+    flex-direction: column;
+    width: 80vw;
+  }
+
+  .cofounder__text {
+    width: 100%;
+  }
+}
+
 /* Collab */
 
 .collab {
