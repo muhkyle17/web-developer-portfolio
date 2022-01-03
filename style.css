@@ -186,10 +186,12 @@ p {
 
 .logos {
   margin-top: 3rem;
+  width: 80vw;
 
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 .logos__tinder {
@@ -205,7 +207,7 @@ p {
 
 @media only screen and (max-width: 768px) {
   .logos {
-    width: 50rem;
+    width: 65%;
     height: 8rem;
     row-gap: 2rem;
     column-gap: 4rem;
@@ -214,6 +216,20 @@ p {
 
   .logos__samsung {
     flex-shrink: 1;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .logos {
+    width: 75%;
+    margin-bottom: 2rem;
+
+    justify-content: center;
+  }
+
+  .logos__samsung {
+    width: 15rem;
+    height: auto;
   }
 }
 
